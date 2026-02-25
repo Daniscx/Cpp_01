@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sed.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: dmaestro <dmaestro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/16 17:17:31 by dmaestro          #+#    #+#             */
-/*   Updated: 2026/01/16 17:18:25 by dmaestro         ###   ########.fr       */
+/*   Updated: 2026/02/25 12:51:40 by dmaestro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,5 +19,5 @@
 #include <cstring>
 #include <fcntl.h>
 #include <unistd.h>
-
+#include <fstream>
 #endif
