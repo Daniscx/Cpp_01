@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: dmaestro <dmaestro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:32:15 by dmaestro          #+#    #+#             */
-/*   Updated: 2026/01/14 19:45:46 by dmaestro         ###   ########.fr       */
+/*   Updated: 2026/02/26 12:39:49 by dmaestro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,8 @@ Zombie::Zombie(std::string name)
 void Zombie::setName(std::string name)
 {
     Zombie::name = name;
+}
+Zombie::~Zombie()
+{
+    std::cout << "Zombie destructor called" << std::endl;
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: dmaestro <dmaestro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 19:58:14 by dmaestro          #+#    #+#             */
-/*   Updated: 2026/01/14 20:06:19 by dmaestro         ###   ########.fr       */
+/*   Updated: 2026/02/26 12:46:52 by dmaestro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int main()
 {
     std::string  str;
     std::string* stringPTR;
-    std::string stringREF;
+    std::string& stringREF = str;
     
     str = "HI THIS IS BRAIN";
     stringPTR = &str;

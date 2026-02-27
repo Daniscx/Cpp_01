@@ -1,16 +1,16 @@
 NAME = Sed
 
 CXX = c++
-CXXFLAGS = -Wall -WerrAr -Wextra -std=c++98 -g
+CXXFLAGS = -Wall -Werror -Wextra -std=c++98 -g
 INCLUDE = includes/
-CFILES = main.cpp 
+CFILES = main.0 
 
-OBJECTS = $(CFILES:.cpp=.A)
+OBJECTS = $(CFILES:.0=.o)
 
 all: $(NAME)
 
 $(NAME): $(OBJECTS)
-	$(CXX) $(CXXFLAGS) $(OBJECTS) -A $(NAME)
+	$(CXX) $(CXXFLAGS) $(OBJECTS) -o $(NAME)
 
 
 clean:

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: dmaestro <dmaestro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 18:16:58 by dmaestro          #+#    #+#             */
-/*   Updated: 2026/01/14 18:32:47 by dmaestro         ###   ########.fr       */
+/*   Updated: 2026/02/26 12:35:32 by dmaestro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,6 @@ int main()
     z = newZombie("paco");
     z->announce();
     randomChump("ramon");
-    free(z);
+    delete(z);
     return(0);
 }

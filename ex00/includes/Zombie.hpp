@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: dmaestro <dmaestro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:26:48 by dmaestro          #+#    #+#             */
-/*   Updated: 2026/01/14 19:41:56 by dmaestro         ###   ########.fr       */
+/*   Updated: 2026/02/26 12:34:28 by dmaestro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ class Zombie
     public:
         Zombie();
         Zombie(std::string name);
+        ~Zombie();
     void 
         announce();
     void
